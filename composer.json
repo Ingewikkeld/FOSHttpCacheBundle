@@ -54,8 +54,10 @@
             "dev-master": "1.3.x-dev"
         }
     },
-    {
-        "type": "vcs",
-        "url": "https://github.com/Ingewikkeld/FOSHttpCache.git"
-    }
+    "repositories": [
+		{
+	        "type": "vcs",
+	        "url": "https://github.com/Ingewikkeld/FOSHttpCache.git"
+	    }
+	]
 }
